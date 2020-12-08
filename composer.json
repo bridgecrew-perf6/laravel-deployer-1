@@ -1,0 +1,36 @@
+{
+    "name": "orh/laravel-deployer",
+    "description": "Laravel deployer",
+    "keywords": [
+        "laravel",
+        "deployer",
+        "laravel-deployer"
+    ],
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0",
+        "deployer/deployer": "~6.8.0",
+        "alibabacloud/sdk": "^1.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~8.5.0",
+        "mockery/mockery": "~1.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Orh\\Deployer\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Orh\\Deployer\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "orh",
+            "email": "512574561@qq.com"
+        }
+    ]
+}
